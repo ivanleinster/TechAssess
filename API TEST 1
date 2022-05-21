@@ -1,6 +1,3 @@
-POST - https://demo.docusign.net/restapi/v2.1/accounts/12345678/envelopes
-
-
 {
   "recipients": {
     "signers": [
@@ -14,28 +11,29 @@ POST - https://demo.docusign.net/restapi/v2.1/accounts/12345678/envelopes
             {
               "xPosition": "100",
               "yPosition": "100",
-              "documentId": "2",
+              "documentId": "1",
               "pageNumber": "1"
             }
           ]
         }
       },
       {
-        "email": "",
+        "email": "ivanleinster@gmail.com",
         "name": "Bruce Wayne",
-        "recipientId": 1, 
+        "recipientId": 2, 
         "tabs": {
           "signHereTabs": [
             {
-              "xPosition": "-95",
+              "xPosition": "95",
               "yPosition": "48",
               "documentId": "1", 
-              "pagenumber": "2"
+              "pagenumber": "1"
             }]
         }
       }
     ]
   },
+  "emailSubject": "Please sign this document",
   "documents": [
     {
       "documentId": "1",
