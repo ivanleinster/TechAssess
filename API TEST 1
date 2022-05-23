@@ -29,8 +29,8 @@ Authorisation:Bearer{{accessToken}}
         "tabs": {
           "signHereTabs": [
             {
-              "xPosition": "95",
-              "yPosition": "48",
+              "xPosition": "100",
+              "yPosition": "100",
               "documentId": "1", 
               "pagenumber": "1"
             }]
