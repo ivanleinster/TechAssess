@@ -24,7 +24,8 @@ Authorisation:Bearer{{accessToken}}
       {
         "email": "ivanleinster@gmail.com",
         "name": "Bruce Wayne",
-        "recipientId": 2, 
+        "recipientId": 2,
+        "accessCode": "98372",
         "tabs": {
           "signHereTabs": [
             {
