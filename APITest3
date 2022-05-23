@@ -1,0 +1,57 @@
+POST - https://demo.docusign.net/restapi/v2.1/accounts/{{accountId}}/envelopes
+Content-Type:application/json
+Authorisation:Bearer{{accessToken}}
+
+{
+  "emailSubject": "DocuSign Test 3",
+  "emailBlurb": "Envelope from 2 Templates",
+  "status": "sent",
+  "compositeTemplates": [
+    {
+      "serverTemplates": [
+        {
+          "sequence": "1",
+          "templateId": "e5769acd-d9c1-4269-88df-50d764353010"
+        }
+      ],
+      "inlineTemplates": [
+        {
+          "sequence": "1",
+          "recipients": {
+            "signers": [
+              {
+                "email": "johndoe@test.test",
+                "name": "John Doe",
+                "recipientId": "1",
+                "roleName": "Signer 1"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "serverTemplates": [
+        {
+          "sequence": "2",
+          "templateId": "713f9789-84d4-45cd-a61b-df051eb7d246"
+        }
+      ],
+      "inlineTemplates": [
+        {
+          "sequence": "2",
+          "recipients": {
+            "signers": [
+              {
+                "email": "janedoe@test.test",
+                "name": "Jane Doe",
+                "recipientId": "1",
+                "roleName": "Signer 2"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
