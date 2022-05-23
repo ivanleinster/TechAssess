@@ -20,9 +20,9 @@ Authorisation:Bearer{{accessToken}}
           "recipients": {
             "signers": [
               {
-                "email": "johndoe@test.test",
+                "email": "ivanleinster@gmail.com",
                 "name": "John Doe",
-                "recipientId": "1",
+                "recipientId": 1,
                 "roleName": "Signer 1"
               }
             ]
@@ -43,9 +43,9 @@ Authorisation:Bearer{{accessToken}}
           "recipients": {
             "signers": [
               {
-                "email": "janedoe@test.test",
+                "email": "ivan_kbg@yahoo.com",
                 "name": "Jane Doe",
-                "recipientId": "1",
+                "recipientId": 2,
                 "roleName": "Signer 2"
               }
             ]
