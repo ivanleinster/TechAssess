@@ -1,5 +1,6 @@
 POST - https://demo.docusign.net/restapi/v2.1/accounts/bc9bb49a-7ec0-4c52-9d27-a7a596e58c2f/envelopes
-
+Content-Type:application/json
+Authorisation:Bearer{{accessToken}}
 
 {
   "recipients": {
