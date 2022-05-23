@@ -8,7 +8,7 @@ Authorisation:Bearer{{accessToken}}
       {
         "email": "theflash@jakedstest.xyz",
         "name": "Barry Allen",
-        "recipientId": 1,
+        "recipientId": "1",
         "accessCode": "98371",
         "tabs": {
           "signHereTabs": [
@@ -24,7 +24,7 @@ Authorisation:Bearer{{accessToken}}
       {
         "email": "ivanleinster@gmail.com",
         "name": "Bruce Wayne",
-        "recipientId": 2,
+        "recipientId": "2",
         "accessCode": "98372",
         "tabs": {
           "signHereTabs": [
