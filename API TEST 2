@@ -1,4 +1,4 @@
-POST - https://demo.docusign.net/restapi/v2.1/accounts/12345678/envelopes
+POST - https://demo.docusign.net/restapi/v2.1/accounts/{{accountId}}/envelopes
 Content-Type:application/json
 Authorisation:Bearer{{accessToken}}
 
